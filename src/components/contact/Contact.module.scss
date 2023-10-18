@@ -2,4 +2,41 @@
   width: 100%;
   // 中の要素に応じて後から高さは調節するようにする
   height: 50vh;
+
+  .sectionTitle {
+    h2 {
+      padding: 20px;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .sectionContents {
+    margin-top: 40px;
+    text-align: center;
+
+    .contactTextArea {
+      padding-top: 20px;
+
+      .contactTextJa {
+        font-size: larger;
+      }
+      .contactTextEn {
+        font-size: medium;
+      }
+    }
+
+    .contactForm {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .formItem {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start
+      }
+    }
+  }
 }
