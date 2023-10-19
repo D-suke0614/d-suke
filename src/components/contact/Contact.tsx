@@ -34,8 +34,10 @@ function Contact() {
               <label>お問い合わせ内容</label>
               <textarea name="" id=""></textarea>
             </div>
-            <div>
-              <button type="submit">so-shin!</button>
+            <div className={styles.formItem}>
+              <button type="submit" onClick={() => {}}>
+                so-shin!
+              </button>
             </div>
           </form>
         </div>
