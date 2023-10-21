@@ -25,13 +25,13 @@
     }
 
     .contactForm {
+      margin-top: 50px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
 
       .formItem {
-        // width: 200px;
         max-width: 800px;
         padding-top: 12px;
         display: flex;
