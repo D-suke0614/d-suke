@@ -1,5 +1,28 @@
 .about {
   width: 100%;
   // 中の要素に応じて後から高さは調節するようにする
-  height: 50vh;
+  // height: 50vh;
+
+  .sectionTitle {
+    h2 {
+      padding: 20px;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .sectionContents {
+    margin-top: 40px;
+
+    .profile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .icon {
+        img {
+          border-radius: 35%;
+        }
+      }
+    }
+  }
 }
