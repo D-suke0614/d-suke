@@ -14,12 +14,26 @@
 
     .profile {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
 
       .icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
         img {
           border-radius: 35%;
+        }
+      }
+
+      .content {
+        width: 100%;
+
+        .link {
+          color: black;
+          &:hover {
+            text-decoration: none;
+          }
         }
       }
     }
