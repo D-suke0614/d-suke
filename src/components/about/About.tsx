@@ -19,7 +19,32 @@ function About() {
                 height={200}
               />
             </div>
-            <div className={styles.content}></div>
+            <div className={styles.content}>
+              <ul>
+                <li>名前　　D.suke</li>
+                <li>職業　　Frontend Developer</li>
+                <li>出身　　愛媛県生まれ愛媛県育ち</li>
+                <li>趣味　　サッカー / 読書</li>
+                <li>
+                  リンク　
+                  <a
+                    className={styles.link}
+                    href="https://twitter.com/0614d_suke"
+                    target="_blank"
+                  >
+                    X
+                  </a>
+                  　
+                  <a
+                    className={styles.link}
+                    href="https://github.com/D-suke0614"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className={styles.intro}></div>
         </div>
