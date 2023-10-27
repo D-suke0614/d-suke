@@ -34,7 +34,7 @@ function About() {
                   >
                     X
                   </a>
-                  　
+                  {` / `}
                   <a
                     className={styles.link}
                     href="https://github.com/D-suke0614"
