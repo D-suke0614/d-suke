@@ -11,7 +11,26 @@
   top: 0;
   left: 0;
 
+  .headerRight {
+    display: flex;
+    align-items: center;
+
+    .snsIcons {
+      ul {
+        display: flex;
+        list-style: none;
+
+        li {
+          margin-right: 16px;
+        }
+      }
+    }
+
+    .menus {
+      margin-right: 16px;
+    }
+  }
   // 確認用のため後で消す
-  background-color: pink;
-  opacity: 0.3; // headerが下にいるように見えるが、実際は最上位にいる
+  // background-color: pink;
+  // opacity: 0.3; // headerが下にいるように見えるが、実際は最上位にいる
 }
