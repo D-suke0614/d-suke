@@ -1,7 +1,25 @@
-import React from "react";
+import React, { Suspense, useState } from "react";
 import styles from "./Contact.module.scss";
 
 function Contact() {
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+  const data = {
+    name: name,
+    email: email,
+    message: message,
+  };
+
+  const checkForm = () => {
+    console.log("name", name);
+    console.log("email", email);
+    console.log("message", message);
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
   return (
     <div className={styles.contact}>
       <div className="wrapper">
@@ -24,18 +42,31 @@ function Contact() {
           <form className={styles.contactForm}>
             <div className={styles.formItem}>
               <label>your name</label>
-              <input type="text" />
+              <input
+                type="text"
+                value={data.name}
+                onChange={(e) => setName(e.target.value)}
+              />
             </div>
             <div className={styles.formItem}>
               <label>email</label>
-              <input type="text" />
+              <input
+                type="text"
+                value={data.email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
             </div>
             <div className={styles.formItem}>
               <label>お問い合わせ内容</label>
-              <textarea name="" id=""></textarea>
+              <textarea
+                name=""
+                id=""
+                value={data.message}
+                onChange={(e) => setMessage(e.target.value)}
+              ></textarea>
             </div>
             <div className={styles.formItem}>
-              <button type="submit" onClick={() => {}}>
+              <button type="button" onClick={() => checkForm()}>
                 so-shin!
               </button>
             </div>
