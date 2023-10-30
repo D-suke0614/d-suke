@@ -28,6 +28,10 @@
 
     .menus {
       margin-right: 16px;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   // 確認用のため後で消す
