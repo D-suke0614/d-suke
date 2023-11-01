@@ -7,7 +7,7 @@ function About() {
     <div className={styles.about}>
       <div className="wrapper">
         <div className={styles.sectionTitle}>
-          <h2>About</h2>
+          <h2>ABOUT</h2>
         </div>
         <div className={styles.sectionContents}>
           <div className={styles.profile}>
