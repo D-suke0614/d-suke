@@ -55,9 +55,11 @@
           background-color: gray;
           color: white;
           font-size: 20px;
+          border: 1px solid gray;
           &:hover {
             background-color: white;
             color: gray;
+            border: 1px solid gray;
           }
         }
       }
