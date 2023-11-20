@@ -12,8 +12,8 @@ function Contact() {
   };
 
   const checkForm = () => {
-    console.log("name", name);
-    console.log("email", email);
+    // console.log("name", name);
+    // console.log("email", email);
     console.log("message", message);
     setName("");
     setEmail("");
@@ -67,7 +67,7 @@ function Contact() {
             </div>
             <div className={styles.formItem}>
               <button type="button" onClick={() => checkForm()}>
-                so-shin!
+                送信
               </button>
             </div>
           </form>
