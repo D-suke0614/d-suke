@@ -8,7 +8,7 @@ function Skill() {
         <div className={styles.sectionTitle}>
           <h2>SKILL</h2>
         </div>
-        <div className={styles.sectionContents}></div>
+        <div className={styles.sectionContents}>{/* ここにコンテンツ */}</div>
       </div>
     </div>
   );
