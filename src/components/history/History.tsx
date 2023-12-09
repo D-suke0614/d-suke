@@ -8,7 +8,7 @@ function History() {
         <div className={styles.sectionTitle}>
           <h2>HISTORY</h2>
         </div>
-        <div className={styles.sectionContents}></div>
+        <div className={styles.sectionContents}>{/* ここにコンテンツ */}</div>
       </div>
     </div>
   );
