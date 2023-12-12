@@ -12,9 +12,6 @@ function Contact() {
   };
 
   const checkForm = () => {
-    // console.log("name", name);
-    // console.log("email", email);
-    // console.log("message", message);
     setName("");
     setEmail("");
     setMessage("");
