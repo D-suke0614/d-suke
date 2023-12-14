@@ -29,7 +29,7 @@ function Contact() {
         <div className={styles.sectionContents}>
           <div className={styles.contactTextArea}>
             <p className={styles.contactTextJa}>
-              どのようなことでもかまいませんので、お気軽にお問い合わせください
+              どのようなことでもかまいませんので、お気軽にお問い合わせください！
             </p>
             <p className={styles.contactTextEn}>
               Please feel free to contact us for any inquiries or questions, no
