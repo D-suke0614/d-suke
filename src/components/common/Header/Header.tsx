@@ -7,7 +7,14 @@ import MenuIcon from "@mui/icons-material/Menu";
 function Header() {
   return (
     <div className={styles.header}>
-      <div className={styles.headerLeft}>site logo</div>
+      <div className={styles.headerLeft}>
+        <Image
+          src="/images/site-icon.png"
+          alt="site-icon"
+          width={30}
+          height={30}
+        />
+      </div>
       <div className={styles.headerRight}>
         <div className={styles.snsIcons}>
           <ul>
