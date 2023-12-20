@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="ja">
       <Head />
-      <link rel="icon" href="/images/site-icon.png" />
+      <link rel="icon" href="/images/site-logo.png" />
       <body>
         <Main />
         <NextScript />

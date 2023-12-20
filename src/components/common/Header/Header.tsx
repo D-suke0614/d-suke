@@ -9,10 +9,10 @@ function Header() {
     <div className={styles.header}>
       <div className={styles.headerLeft}>
         <Image
-          src="/images/site-icon.png"
+          src="/images/site-logo.png"
           alt="site-icon"
-          width={30}
-          height={30}
+          width={100}
+          height={50}
         />
       </div>
       <div className={styles.headerRight}>
