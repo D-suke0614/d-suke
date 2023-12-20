@@ -8,12 +8,14 @@ function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.headerLeft}>
-        <Image
-          src="/images/site-logo.png"
-          alt="site-icon"
-          width={100}
-          height={50}
-        />
+        <Link href="">
+          <Image
+            src="/images/site-logo.png"
+            alt="site-icon"
+            width={100}
+            height={50}
+          />
+        </Link>
       </div>
       <div className={styles.headerRight}>
         <div className={styles.snsIcons}>
