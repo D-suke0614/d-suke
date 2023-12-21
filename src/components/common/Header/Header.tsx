@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.headerLeft}>
-        <Link href="">
+        <Link href="/">
           <Image
             src="/images/site-logo.png"
             alt="site-icon"
