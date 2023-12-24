@@ -4,7 +4,7 @@ import styles from "./Top.module.scss";
 function Top() {
   return (
     <div className={styles.top}>
-      <div>Top</div>
+      <div>Top Image（Three.jsでいい感じのを設置したい）</div>
     </div>
   );
 }
